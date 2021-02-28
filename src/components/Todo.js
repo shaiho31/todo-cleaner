@@ -10,6 +10,7 @@ const deleteHandler = () =>  {
 const editHandler = () => {
   setTodos(todos.map((el) => {
     if (el.id === todo.id) {
+      console.log(el.id)
       return text = ""
     }
   }))

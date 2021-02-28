@@ -1,0 +1,9 @@
+.container {
+    border:white 4px solid;
+    background-color:gold;
+    height:300px;
+    width:400px;
+    margin-top:30px;
+    margin-left:auto;
+    margin-right:auto
+}

@@ -1,0 +1,38 @@
+.li {
+  list-style-type: none;
+}
+
+.input-list {
+  color: green;
+  margin-bottom: 5px;
+  display: inline-block;
+}
+
+/* .red {
+    color: red;
+    list-style-type: none;
+} */
+
+.delete-btn {
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 3px 6px;
+  font-size: 14px;
+  cursor: pointer;
+  margin-bottom: 5px;
+  margin-right: 40px;
+  border-radius: 10px;
+}
+
+.edit-btn {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 3px 6px;
+  font-size: 18px;
+  cursor: pointer;
+  margin-bottom: 5px;
+  margin-right: 10px;
+  border-radius: 10px;
+}

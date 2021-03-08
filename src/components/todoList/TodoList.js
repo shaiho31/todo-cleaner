@@ -1,14 +1,24 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import Todo from './todo/Todo.js'
 import './todoList.css'
 
-const TodoList = ({ todos, setTodos }) => {
+const TodoList = ({ todos, setTodos, filteredTodos,setFilteredTodos }) => {
   return (
     <div className="container">
-      <ul>
-        {console.log(todos)}
-        {todos.map((todo) => {
-          return <Todo key={todo.id} text={todo.text} id={todo.id} setTodos={setTodos} todo={todo} todos={todos} />
+      <ul className="ul-list">
+        {filteredTodos.map((todo) => {
+          return (
+            <Todo
+              key={todo.id}
+              text={todo.text}
+              id={todo.id}
+              setTodos={setTodos}
+              todo={todo}
+              todos={todos}
+              setFilteredTodos={setFilteredTodos}
+              filteredTodos={filteredTodos}
+            />
+          )
         })}
       </ul>
     </div>

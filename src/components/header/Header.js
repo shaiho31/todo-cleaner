@@ -1,11 +1,11 @@
 import React from 'react'
 import './header.css'
 
-const Header = () => {
+const Header = ({header,paragraph}) => {
   return (
     <div className="header">
-      <h1>Todo Cleaner</h1>
-      <p className="p-element">Its Time to Clean App </p>
+      <h1>{header}</h1>
+      <p className="p-element"> {paragraph} </p>
     </div>
   )
 }

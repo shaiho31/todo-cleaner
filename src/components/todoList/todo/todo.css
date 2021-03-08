@@ -1,17 +1,15 @@
 .li {
   list-style-type: none;
-}
-
-.input-list {
-  color: green;
-  margin-bottom: 5px;
-  display: inline-block;
+  display: inline;
 }
 
 /* .red {
     color: red;
     list-style-type: none;
 } */
+.todo-item{
+margin-left: 10px;
+}
 
 .delete-btn {
   background-color: red;
@@ -21,7 +19,7 @@
   font-size: 14px;
   cursor: pointer;
   margin-bottom: 5px;
-  margin-right: 40px;
+  margin-left: 0px;
   border-radius: 10px;
 }
 
@@ -35,4 +33,11 @@
   margin-bottom: 5px;
   margin-right: 10px;
   border-radius: 10px;
+}
+
+
+.completed {
+  text-decoration: line-through;
+  background-color: red;
+  color:white
 }
